@@ -1,9 +1,9 @@
 server:
-  port: 8882
+  port: 8883
 spring:
   application:
     ####注册中心应用名称
-    name:  config-client
+    name:  config-client1
   cloud:
     config:
       ####读取后缀

@@ -22,3 +22,15 @@ spring:
             - config
       ####读取分支
       label: master
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+###开启bus刷新
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
